@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #f6ead0;
+  --turmeric: #e4a32a;
+  --indigo: #263468;
+  --terracotta: #b25037;
+  --forest: #3e5e3a;
+  --ink: #1c1816;
+}
+
+html,
+body {
+  background-color: var(--cream);
+  color: var(--ink);
+}
+
+body {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-feature-settings: "kern", "liga";
+  -webkit-font-smoothing: antialiased;
+}
